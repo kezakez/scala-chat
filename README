@@ -1,0 +1,28 @@
+thoughts
+went with scalatra - a sinatra style framework for scala.
+got a form and a post page going in an hour.
+had troubles with the generated code not working. lots of strange tools that load many things.
+trying to figure out how akka works and fits in.
+
+Language: Scala 
+Problem Statement: 
+App Category: Social Networking 
+DB: None 
+Simple part: 
+- create a simple chat room application using scala 
+- the chat room is a web app that allows multiple users to chat with each 
+other in a conference 
+- multiple users can join the chat room by providing a username. No 
+authentication is done. The username is only required to identify the chat 
+msg sender 
+- all messages posted by a user is visible to all other users 
+- Use Scala specific features to build the chat server. Use Actor class to 
+receive messages. Explore how these are different from threads in 
+conventional languages. Use Akka framework to create Actors. 
+Complex part 1: (Optional, if you complete simple part and want to take up 
+something more challenging) 
+- Lets us start doing TDD from here on. Since it may be a relatively new 
+concept to many, it is added as an optional portion 
+- Use testing frameworks like ScalaTest to write test first for the 
+application and then evolve the app code based on the test written 
+  For more detail on ScalaTest-> http://www.scalatest.org/ 
